@@ -54,7 +54,6 @@ public class ViewSistema extends javax.swing.JFrame {
         jBcadastroExcluir = new javax.swing.JButton();
         jLabel50 = new javax.swing.JLabel();
         jTcadastroNome = new javax.swing.JTextField();
-        jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jTabaConfiguracoes = new javax.swing.JTabbedPane();
         jPanel24 = new javax.swing.JPanel();
@@ -331,19 +330,6 @@ public class ViewSistema extends javax.swing.JFrame {
 
         jTabaPrincipal.addTab("Novo", jPanel22);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1001, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 648, Short.MAX_VALUE)
-        );
-
-        jTabaPrincipal.addTab("Estou com sorte", jPanel1);
-
         jTabaConfiguracoes.setTabPlacement(javax.swing.JTabbedPane.LEFT);
         jTabaConfiguracoes.setFont(new java.awt.Font("Dialog", 0, 12)); // NOI18N
 
@@ -547,7 +533,6 @@ public class ViewSistema extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
     public javax.swing.JLabel jLconfiguracaoTestarResposta;
-    public javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel21;
